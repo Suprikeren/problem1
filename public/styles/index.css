@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination a[aria-current="page"] {
+	background-color: #eea628;
+	color: white;
+}
+
+.ck-editor__editable {
+	min-height: 250px;
+}
+
+.inner-shadow {
+	box-shadow: inset 0px 4px 6px rgba(77, 77, 77, 0.5); /* Inner shadow sesuai permintaan */
+}
